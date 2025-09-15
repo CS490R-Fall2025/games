@@ -1,0 +1,30 @@
+# Unity (ignore anywhere)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uilds?/
+**/[Ll]ogs/
+**/[Mm]emoryCaptures/
+**/UserSettings/
+**/sysinfo.txt
+*.unitypackage
+*.apk
+
+# IDE / OS
+.vscode/
+.vs/
+.idea/
+*.sln
+*.csproj
+*.user
+*.suo
+*.pidb
+*.booproj
+*.DotSettings*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep Pages content
+!docs/
+docs/.nojekyll
