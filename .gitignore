@@ -10,6 +10,11 @@
 *.unitypackage
 *.apk
 
+# WebGL build handling
+**/[Bb]uild/
+!docs/
+docs/**/.nojekyll
+
 # IDE / OS
 .vscode/
 .vs/
@@ -28,3 +33,9 @@ desktop.ini
 # Keep Pages content
 !docs/
 docs/.nojekyll
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
